@@ -1,0 +1,117 @@
+.nmItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.nmItems_container {
+    display: grid;
+    padding: 40px 150px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(250px, auto);
+    width: 100%;
+    max-width: 1440px;
+}
+
+.nmItems p {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nmItems_sec1 {
+    background: url(../../img/furniture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.nmItems_sec2 {
+    background: url(../../img/food\ item.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.nmItems_sec3 {
+    background: url(../../img/packages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.nmItems_sec4 {
+    background: url(../../img/textile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+    .nmItems_container {
+        padding: 20px 40px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(220px, auto);
+    }
+    
+    .nmItems p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nmItems_container {
+        padding: 20px 40px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(180px, auto);
+    }
+    
+    .nmItems p {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nmItems_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nmItems_sec1,
+    .nmItems_sec2,
+    .nmItems_sec3,
+    .nmItems_sec4 {
+        min-height: 250px;
+    }
+}

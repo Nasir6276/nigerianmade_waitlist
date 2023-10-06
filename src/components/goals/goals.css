@@ -1,0 +1,143 @@
+.nmGoals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+}
+
+.nmGoals_container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.nmGoals_header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    max-width: 880px;
+}
+
+.nmGoals_header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #404242;
+    margin-bottom: 10px;
+}
+
+.nmGoals_header p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #838584;
+}
+
+.nmGoals_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nmGoals_items-single {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    min-height: 300px;
+    margin: 20px 10px;
+    padding: 20px;
+    border: 2px solid #EDEDED;
+    border-radius: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nmGoals_items-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nmGoals_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #E6F3EE;
+    border-radius: 50px;
+    color: #018652;
+}
+
+.nmGoals_items-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #272828;
+    margin-left: 10px;
+}
+
+.nmGoals_items-single p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: justified;
+    color: #6B6D6D;
+}
+
+@media screen and (max-width: 1150px) {
+    .nmGoals_container {
+        padding: 60px;
+    }
+
+    .nmGoals_items-single {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nmGoals_container {
+        padding: 20px;
+    }
+    .nmGoals_items-single {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nmGoals_container {
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .nmGoals_header {
+        margin-bottom: 30px;
+    }
+
+    .nmGoals_header h1 {
+        font-size: 28px;
+    }
+    
+    .nmGoals_header p {
+        font-size: 16px;
+    }
+
+    .nmGoals_items-single {
+        width: 300px;
+    }
+    
+    .nmGoals_items-header h2 {
+        font-size: 22px;
+    }
+
+    .nmGoals_items-single p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,190 @@
+.nmDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background: #D9D9D9;
+}
+
+.nmDetail_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    margin: 50px 20px;
+}
+
+.nmDetail_progress {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.nmDetail_progress span {
+    flex: 1;
+    height: 8px;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.nmDetail_progress span:nth-child(1) {
+    background: #018652;
+}
+
+.nmDetail_progress span:nth-child(2) {
+    margin: 0 10px;
+    background: #018652;
+}
+
+.nmDetail_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.nmDetail_header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;    
+    color: #404242;
+    margin-bottom: 10px;
+}
+
+.nmDetail_header p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;    
+    color: #6B6D6D;
+    max-width: 90%;
+}
+
+.nmDetail_container label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin: 10px 0;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #6B6D6D;
+}
+
+.nmDetail_container label div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    margin-top: 7px;
+}
+
+.nmDetail_container label div input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 20px;
+    width: 100%;
+    border: 2px solid #AAABAB;
+    border-radius: 10px;
+    outline: none;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #909490;
+}
+
+.nmDetail_container label div input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #C6C7C6;
+}
+
+.nmDetail_create {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+
+.nmDetail_create input {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.nmDetail_create p {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #6B6D6D;
+}
+
+.nmDetail_container button {
+    display: flex;
+    width: 180px;
+    height: 48px;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: #018652;
+    border: none;
+    margin: 15px 0;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nmDetail_container button:hover {
+    background: #0d9661;
+    transition: 300ms ease-in-out 0s;
+}
+
+@media screen and (max-width: 575px) {   
+    .nmDetail {
+        height: auto;
+    }
+
+    .nmDetail_progress {
+        margin-bottom: 30px;
+    }
+
+    .nmDetail_header h1 {
+        font-size: 22px;
+    }
+
+    .nmDetail_header p {
+        font-size: 12px;
+    }
+
+    .nmDetail_header {
+        margin-bottom: 15px;
+    }
+
+    .nmDetail_container label div input {
+        font-size: 12px;
+    }
+
+    .nmDetail_container label div input::placeholder {
+        font-size: 12px;
+    }
+
+    .nmDetail_create input {
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+    }
+
+    .nmDetail_create p {
+        font-size: 14px;
+    }
+}

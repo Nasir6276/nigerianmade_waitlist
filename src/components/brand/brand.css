@@ -1,0 +1,32 @@
+.nmBrand {
+    display: flex;
+    align-items: center;
+    max-width: auto;
+    justify-content: center;
+}
+
+.nmBrand_container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+    justify-content: space-around;
+}
+
+.nmBrand_container img {
+    margin: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .nmBrand_container {
+        padding: 40px 40px ;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nmBrand_container {
+        padding: 20px 0;
+    }
+}

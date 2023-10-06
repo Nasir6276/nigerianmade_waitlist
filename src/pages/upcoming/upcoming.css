@@ -1,0 +1,93 @@
+.nmUpcoming {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #D9D9D9;
+}
+
+.nmUpcoming_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    margin: 50px 20px;
+    align-items: center;
+}
+
+.nmUpcoming_check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: #E6F3EE;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.nmUpcoming_checked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #B0D9C9;
+    border-radius: 50%;
+}
+
+.nmUpcoming_container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+    color: #404242;
+}
+
+.nmUpcoming_container p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;    
+    max-width: 475px;
+    margin-bottom: 30px;
+    line-height: 19px;
+
+    color: #6B6D6D;
+}
+
+.nmUpcoming_container span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nmUpcoming_container hr {
+    width: 100%;
+    border: 1px solid #C6C7C6;
+    margin-bottom: 20px;
+}
+
+.nmUpcoming_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nmUpcoming_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: 1px solid #018652;
+    padding: 15px;
+    border-radius: 50%;
+    color: #018652;
+}
+
+.nmUpcoming_icon:hover {
+    background: #49d19d;
+    color: #FFFFFF;
+    transition: 3000ms ease-in 0 ease-out;
+}

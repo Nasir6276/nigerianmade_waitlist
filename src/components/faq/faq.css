@@ -1,0 +1,185 @@
+.nmFaq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+}
+
+.nmFaq_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 0;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.nmFaq_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.nmFaq_header h1 {
+    font-size: 32px;
+    font-weight: 600;
+
+    color: #404242;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.nmFaq_header p {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #6B6D6D;
+    text-align: center;
+}
+
+.nmFaq_questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 850px;
+    margin: 20px 0;
+}
+
+.nmFaq_questions hr {
+    border: 1px solid #AAABAB;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.nmFaq_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nmFaq_title h2 {
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #272828;
+}
+
+.nmFaq_title span {
+    font-size: 28px;
+    font-weight: 600;
+
+    color: #374957;
+    cursor: pointer;
+}
+
+.nmFaq_comment {
+    max-height: 0;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    overflow: hidden;
+}
+
+.nmFaq_comment .nmFaq_show {
+    height: auto;
+    max-height: 999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.nmFaq_show p {
+    font-size: 16px;
+    font-weight: 500;
+
+    color: #838584;
+}
+
+.nmSignup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../../img/Vector.png);
+    background-color: #017A4B;
+    width: 90%;
+    padding: 70px 10px;
+    border-radius: 20px;
+}
+
+.nmSignup h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.nmSignup p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 680px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.nmSignup button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    background: #323433;
+    border: none;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .nmFaq_header {
+        margin: 20px 0;
+    }
+
+    .nmFaq_header h1 {
+        font-size: 28px;
+    }
+    
+    .nmFaq_header p {
+        font-size: 12px;
+    }
+
+    .nmFaq_title h2 {
+        font-size: 16px;
+    }
+    
+    .nmFaq_title span {
+        font-size: 24px;
+    }
+
+    .nmFaq_show p {
+        font-size: 12px;
+    }
+
+    .nmSignup {
+        padding: 50px 10px;
+    }
+
+    .nmSignup h1 {
+        font-size: 30px;
+    
+        margin-bottom: 10px;
+    }
+    
+    .nmSignup p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+}
