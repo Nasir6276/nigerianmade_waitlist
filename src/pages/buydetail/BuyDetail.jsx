@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar/Navbar'
 import './buydetail.css'
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:5000/api'
+const BASE_URL = 'https://api.nigerian-made.com/api'
 
 const BuyDetail = () => {
   const [fullName, setFullName] = useState('');

@@ -4,7 +4,7 @@ import Announcement from '../../components/announcement/Announcement'
 import Navbar from '../../components/navbar/Navbar'
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:5000/api'
+const BASE_URL = 'https://api.nigerian-made.com/api'
 
 const Details = () => {
   const [fullName, setFullName] = useState('');
