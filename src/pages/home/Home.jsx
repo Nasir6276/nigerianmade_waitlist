@@ -3,7 +3,7 @@ import './home.css';
 import Announcement from '../../components/announcement/Announcement';
 import Navbar from '../../components/navbar/Navbar';
 import Header from '../../components/header/Header';
-import Brand from '../../components/brand/Brand';
+// import Brand from '../../components/brand/Brand';
 import Items from '../../components/items/Items';
 import Goals from '../../components/goals/Goals';
 import Join from '../../components/join/Join';
@@ -16,7 +16,7 @@ const Home = () => {
         <Announcement />
         <Navbar />
         <Header />
-        <Brand />
+        {/* <Brand /> */}
         <Items />
         <Goals />
         <Join />

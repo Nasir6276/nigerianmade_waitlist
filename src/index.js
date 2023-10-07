@@ -8,14 +8,12 @@ import Details from './pages/details/Detail';
 import Thanks from './pages/thanks/Thanks';
 import BuyDetail from './pages/buydetail/BuyDetail';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Upcoming from './pages/upcoming/Upcoming';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        {/* <Route index element={<Upcoming />} />  */}
         <Route index element={<Home />} /> 
         <Route path='/home' element={<Home />} />      
         <Route path='/buysell' element={<BuySell />} />      

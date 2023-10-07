@@ -70,11 +70,9 @@ const BuyDetail = () => {
                       <input type="checkbox" />
                       <p>Create an account for me upon launch.</p>
                   </div>
-                  <Link to='/buy' style={{textDecoration: 'none'}}>
-                    <button type='submit'>
+                  <button type='submit'>
                       Continue
-                    </button>
-                  </Link>
+                  </button>
                   {error && <span style={{color: 'red', fontSize: '14px'}}>something went wrong! confirm credentials and try again</span>}
                 </form>
             </div>

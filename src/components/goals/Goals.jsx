@@ -8,7 +8,7 @@ const Goals = () => {
     <div className='nmGoals'>
         <div className="nmGoals_container">
             <div className="nmGoals_header">
-                <h1>What Sets Us Apart</h1>
+                <h1>Things that set us apart</h1>
                 <p>
                     There are many variations of passages of Lorem Ipsum available, 
                     but the majority have suffered alteration in some form, by injected 

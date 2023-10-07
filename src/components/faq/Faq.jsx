@@ -47,24 +47,44 @@ const Faq = () => {
 
 const data = [
     {
-      title: 'Question 1 goes here',
-      comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are...There are many variations.'
+      title: ' What is Nigerian-Made.com?',
+      comment: 'Nigerian-Made.com is a platform dedicated to promoting and celebrating authentic products and services that are proudly made in Nigeria. We showcase the diversity and quality of Nigerian craftsmanship, innovation, and entrepreneurship.'
     },
     {
-      title: 'Question 1 goes here',
-      comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are...There are many variations.'
+      title: 'How can I feature my product or service on Nigerian-Made.com?',
+      comment: 'To feature your product or service on our platform, please stay tuned to our channel by visit our "Get Early Access" page and follow the provided guidelines. We will get in touch with you upon our official launch.'
     },
     {
-      title: 'Question 1 goes here',
-      comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are...There are many variations.'
+      title: 'Is Nigerian-Made.com an online marketplace?',
+      comment: 'Nigerian-Made.com is primarily a showcase and promotional platform. While we highlight Nigerian-made products and services, transactions and purchases typically occur on the websites or stores of the respective businesses featured.'
     },
     {
-      title: 'Question 1 goes here',
-      comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are...There are many variations.'
+      title: 'Can I trust the quality of products and services listed on Nigerian-Made.com?',
+      comment: 'We aim to feature reputable businesses and products; however, we recommend conducting your research and due diligence before making any purchase. Customer reviews and ratings, where available, can be helpful in making informed decisions.'
     },
     {
-      title: 'Question 1 goes here',
-      comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected There are...There are many variations.'
+      title: 'Do you have a physical store or location?',
+      comment: 'Nigerian-Made.com operates primarily as an online platform, and we do not have physical stores or locations. You can access our website from anywhere with an internet connection.'
+    },
+    {
+      title: 'How can I stay updated with the latest Nigerian-made products and news?',
+      comment: 'You can stay informed by subscribing to our newsletter, following us on social media, and regularly visiting our website. We also feature blog posts and articles about noteworthy Nigerian-made products and trends.'
+    },
+    {
+      title: ' Is Nigerian-Made.com affiliated with the any specific brands?',
+      comment: 'Nigerian-Made.com is an independent platform and not directly affiliated with any specific brands. We aim to support and promote a wide range of Nigerian businesses and products.'
+    },
+    {
+      title: 'Can I advertise my business on Nigerian-Made.com?',
+      comment: 'Yes, we will offer  advertising opportunities for businesses looking to reach our audience upon launch. Our advertising team will provide more information on available advertising options.'
+    },
+    {
+      title: 'How can I contact Nigerian-Made.com for further inquiries?',
+      comment: 'You can reach out to us through our "Contact Us" page, where you will find our contact information and a contact form. We strive to respond to inquiries promptly.'
+    },
+    {
+      title: '. Is Nigerian-Made.com accessible outside of Nigeria?',
+      comment: 'Yes, Nigerian-Made.com is accessible worldwide. We welcome visitors and supporters from both within Nigeria and around the globe who are interested in Nigerian-made products and services.'
     },
   ]
 
