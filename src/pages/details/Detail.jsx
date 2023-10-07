@@ -3,6 +3,7 @@ import './detail.css'
 import Announcement from '../../components/announcement/Announcement'
 import Navbar from '../../components/navbar/Navbar'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 const BASE_URL = 'https://api.nigerian-made.com/api'
 
@@ -25,7 +26,7 @@ const Details = () => {
         businessLocation,
         businessType
       });    
-      res.data && window.location.replace('/sell')
+      res.data && window.location.replace("/sell")
     } catch (error) {
       setError(true)
     }
@@ -109,9 +110,11 @@ const Details = () => {
                       <input type="checkbox" />
                       <p>Create an account for me upon launch.</p>
                   </div>
-                  <button type='submit'>
-                    Continue
-                  </button>
+                  <Link to='/sell' style={{textDecoration: 'none'}}>
+                    <button type='submit'>
+                      Continue
+                    </button>
+                  </Link>
                   {error && <span style={{color: 'red', fontSize: '14px'}}>something went wrong! confirm credentials and try again</span>}
                 </form>
             </div>
