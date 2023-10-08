@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="nmFooter_socials">
               <img src={nmLogo} alt="" />
               <div className="nmFooter_links">
-                  <FontAwesomeIcon className='nmFooter_icons' icon={faFacebookF} />
-                  <FontAwesomeIcon className='nmFooter_icons' icon={faTwitter} />
-                  <FontAwesomeIcon className='nmFooter_icons' icon={faLinkedinIn} />
-                  <FontAwesomeIcon className='nmFooter_icons' icon={faInstagram} />
+                  <a href="https://www.facebook.com/profile.php?id=61552071142231"><FontAwesomeIcon className='nmFooter_icons' icon={faFacebookF} /></a>
+                  <a href="https://x.com/NigerianMade_x?t=HkifMP1p7e_2SdMVs_gODA&s=09"><FontAwesomeIcon className='nmFooter_icons' icon={faTwitter} /></a>
+                  <a href="https://www.linkedin.com/company/nigerian-made-com/"><FontAwesomeIcon className='nmFooter_icons' icon={faLinkedinIn} /></a>
+                  <a href="https://instagram.com/nigerianmade.ig?igshid=NzZhOTFlYzFmZQ"><FontAwesomeIcon className='nmFooter_icons' icon={faInstagram} /></a>
               </div>
           </div>
           <hr />

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChartLine } from '@fortawesome/free-solid-svg-icons'
+import { faChartLine, faBrush, faGem, faStar, faShieldHalved, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import './goals.css'
 
 const Goals = () => {
@@ -10,9 +10,8 @@ const Goals = () => {
             <div className="nmGoals_header">
                 <h1>Things that set us apart</h1>
                 <p>
-                    There are many variations of passages of Lorem Ipsum available, 
-                    but the majority have suffered alteration in some form, by injected 
-                    There are There are many variations.
+                    Innovation, Culture, Craftsmanship, Sustainability, Local Pride, 
+                    Excellence, Empowerment, Heritage, Creativity, Authenticity
                 </p>
             </div>
             <div className="nmGoals_items">
@@ -29,7 +28,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faChartLine} />
+                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faBrush} />
                         <h2>Celebrating Nigerian Craftsmanship</h2>
                     </div>
                     <p>
@@ -40,7 +39,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faChartLine} />
+                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faGem} />
                         <h2>Unleashing Hidden Treasures</h2>
                     </div>
                     <p>
@@ -51,7 +50,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faChartLine} />
+                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faStar} />
                         <h2>Building Trust and Credibility</h2>
                     </div>
                     <p>
@@ -62,7 +61,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faChartLine} />
+                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faShieldHalved} />
                         <h2>Increased Visibility</h2>
                     </div>
                     <p>
@@ -73,7 +72,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faChartLine} />
+                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faUserPlus} />
                         <h2>Promoting Local Innovation</h2>
                     </div>
                     <p>

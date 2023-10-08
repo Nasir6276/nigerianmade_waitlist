@@ -83,7 +83,7 @@ const data = [
       comment: 'You can reach out to us through our "Contact Us" page, where you will find our contact information and a contact form. We strive to respond to inquiries promptly.'
     },
     {
-      title: '. Is Nigerian-Made.com accessible outside of Nigeria?',
+      title: 'Is Nigerian-Made.com accessible outside of Nigeria?',
       comment: 'Yes, Nigerian-Made.com is accessible worldwide. We welcome visitors and supporters from both within Nigeria and around the globe who are interested in Nigerian-made products and services.'
     },
   ]
