@@ -56,7 +56,7 @@ const BuyDetail = () => {
                     </div>
                   </label>
                   <label>
-                    Email Addresse
+                    Email Address
                     <div>
                       <input 
                         type="text" 
