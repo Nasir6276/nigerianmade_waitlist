@@ -41,7 +41,7 @@ const Details = () => {
                     <span></span>
                 </div>
                 <div className="nmDetail_header">
-                    <h1>Before we get your Insights</h1>
+                    <h1>All set! Let's know your interest</h1>
                     <p>
                       Kindly share these details to enable us to provide you 
                       with a personalized experience and to ensure that your response 
