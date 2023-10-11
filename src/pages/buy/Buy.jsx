@@ -15,7 +15,7 @@ const Buy = () => {
                     <span></span>
                 </div>
                 <div className="nmBuy_header">
-                    <h1>OK, how about Categories?</h1>
+                    <h1>All set! Let's know your interest</h1>
                     <p>
                         Select up to 5 product categories that interests 
                         you and we will have them ready for you to explore.

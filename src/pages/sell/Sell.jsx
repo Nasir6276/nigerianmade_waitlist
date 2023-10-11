@@ -15,7 +15,7 @@ const Sell = () => {
                     <span></span>
                 </div>
                 <div className="nmSell_header">
-                    <h1>OK, how about Categories?</h1>
+                    <h1>All set! Let's know your interest</h1>
                     <p>
                         Select up to 3 categories of products that you want 
                         to showcase to the World.
