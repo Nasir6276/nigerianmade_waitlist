@@ -41,10 +41,11 @@ const Details = () => {
                     <span></span>
                 </div>
                 <div className="nmDetail_header">
-                    <h1>One more thing</h1>
+                    <h1>Before we get your Insights</h1>
                     <p>
-                      Please provide your information below for us to keep you 
-                      posted about our key activities (launch date etc.)
+                      Kindly share these details to enable us to provide you 
+                      with a personalized experience and to ensure that your response 
+                      doesn't escape attention.
                     </p>
                 </div>
                 <form onSubmit={handleSubmit}>
