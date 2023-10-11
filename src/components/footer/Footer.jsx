@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faTwitter, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faXTwitter, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import './footer.css'
 import nmLogo from '../../img/Layer_1.png'
@@ -12,8 +12,8 @@ const Footer = () => {
           <div className="nmFooter_socials">
               <img src={nmLogo} alt="" />
               <div className="nmFooter_links">
-                  <a href="https://www.facebook.com/profile.php?id=61552071142231"><FontAwesomeIcon className='nmFooter_icons' icon={faFacebookF} /></a>
-                  <a href="https://x.com/NigerianMade_x?t=HkifMP1p7e_2SdMVs_gODA&s=09"><FontAwesomeIcon className='nmFooter_icons' icon={faTwitter} /></a>
+                  <a href="https://www.facebook.com/profile.php?id=61552071142231"><FontAwesomeIcon className='nmFooter_icons' icon={faFacebook} /></a>
+                  <a href="https://x.com/NigerianMade_x?t=HkifMP1p7e_2SdMVs_gODA&s=09"><FontAwesomeIcon className='nmFooter_icons' icon={faXTwitter} /></a>
                   <a href="https://www.linkedin.com/company/nigerian-made-com/"><FontAwesomeIcon className='nmFooter_icons' icon={faLinkedinIn} /></a>
                   <a href="https://instagram.com/nigerianmade.ig?igshid=NzZhOTFlYzFmZQ"><FontAwesomeIcon className='nmFooter_icons' icon={faInstagram} /></a>
               </div>

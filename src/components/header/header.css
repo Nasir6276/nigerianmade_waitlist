@@ -7,6 +7,13 @@
     width: auto;
 }
 
+.nmHeader p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
 .trailblazers {
     display: flex;
     align-items: center;

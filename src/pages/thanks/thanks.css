@@ -78,3 +78,25 @@
     background: #0d9661;
     transition: 300ms ease-in-out 0s;
 }
+
+.nmThanks_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nmThanks_icons {
+    display: flex;
+    padding: 15px;
+    margin: 0 10px;
+    border: 1px solid #018652;
+    border-radius: 50px;
+    color: #018652;
+    cursor: pointer;
+}
+
+.nmThanks_icons:hover {
+    background-color: #2ac489;
+    transition: 300ms ease-in-out 0s;
+    color: #ffffff;
+}

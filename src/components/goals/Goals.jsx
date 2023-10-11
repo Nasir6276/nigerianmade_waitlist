@@ -17,7 +17,7 @@ const Goals = () => {
             <div className="nmGoals_items">
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faChartLine} />
+                        <FontAwesomeIcon className='nmGoals_icons' icon={faChartLine} />
                         <h2>Supporting Economic Growth</h2>
                     </div>
                     <p>
@@ -28,7 +28,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faBrush} />
+                        <FontAwesomeIcon className='nmGoals_icons' icon={faBrush} />
                         <h2>Celebrating Nigerian Craftsmanship</h2>
                     </div>
                     <p>
@@ -39,7 +39,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faGem} />
+                        <FontAwesomeIcon className='nmGoals_icons' icon={faGem} />
                         <h2>Unleashing Hidden Treasures</h2>
                     </div>
                     <p>
@@ -50,7 +50,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faStar} />
+                        <FontAwesomeIcon className='nmGoals_icons' icon={faStar} />
                         <h2>Building Trust and Credibility</h2>
                     </div>
                     <p>
@@ -61,7 +61,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faShieldHalved} />
+                        <FontAwesomeIcon className='nmGoals_icons' icon={faShieldHalved} />
                         <h2>Increased Visibility</h2>
                     </div>
                     <p>
@@ -72,7 +72,7 @@ const Goals = () => {
                 </div>
                 <div className="nmGoals_items-single">
                     <div className="nmGoals_items-header">
-                        <FontAwesomeIcon className='nmGoals_icons fa-2x' icon={faUserPlus} />
+                        <FontAwesomeIcon className='nmGoals_icons' icon={faUserPlus} />
                         <h2>Promoting Local Innovation</h2>
                     </div>
                     <p>

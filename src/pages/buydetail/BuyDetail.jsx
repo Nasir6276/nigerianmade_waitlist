@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Announcement from '../../components/announcement/Announcement'
 import Navbar from '../../components/navbar/Navbar'
 import './buydetail.css'
 import axios from 'axios'
@@ -27,7 +26,6 @@ const BuyDetail = () => {
 
   return (
     <div>
-        <Announcement />
         <Navbar />
         <div className="nmBuyDetail">
         <div className="nmBuyDetail_container">

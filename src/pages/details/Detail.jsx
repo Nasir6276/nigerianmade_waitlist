@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './detail.css'
-import Announcement from '../../components/announcement/Announcement'
 import Navbar from '../../components/navbar/Navbar'
 import axios from 'axios'
 
@@ -33,7 +32,6 @@ const Details = () => {
   
   return (
     <div>
-        <Announcement />
         <Navbar />
         <div className="nmDetail">
         <div className="nmDetail_container">

@@ -40,6 +40,7 @@
 
 .nmFooter_icons:hover {
     background-color: #2ac489;
+    transition: 300ms ease-in-out 0s;
     color: #ffffff;
 }
 
@@ -51,7 +52,7 @@
 
 .nmFooter p {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
 
     color: #6B6D6D;

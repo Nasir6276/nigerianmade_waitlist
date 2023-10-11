@@ -7,10 +7,12 @@ const Navbar = () => {
   return (
     <div className='nmNavbar'>
         <div className="nmNavbar_container">
-          <img src={Logo} alt="" />
-            <Link to='/buysell' style={{textDecoration: 'none'}}>
-                <button>Get early access</button>
-            </Link>
+          <Link to='/'>
+            <img src={Logo} alt="" />
+          </Link>
+          <Link to='/buysell' style={{textDecoration: 'none'}}>
+              <button>Get early access</button>
+          </Link>
         </div>
     </div>
   )

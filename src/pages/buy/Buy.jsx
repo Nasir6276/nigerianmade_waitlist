@@ -1,13 +1,11 @@
 import React from 'react'
 import './buy.css'
-import Announcement from '../../components/announcement/Announcement'
 import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 const Buy = () => {
   return (
     <div>
-        <Announcement />
         <Navbar />
         <div className="nmBuy">
             <div className="nmBuy_container">
@@ -32,7 +30,7 @@ const Buy = () => {
                             </label>
                         </div>
                     ))}
-                    <p>Not listed? Please tell us what you would like showcase to the World.</p>
+                    <p>Not listed? Please tell us what you would like to showcase to the World.</p>
                     <div className="nmBuy_nListed">
                         <input type="text" placeholder='Enter Custom category'/>
                     </div>

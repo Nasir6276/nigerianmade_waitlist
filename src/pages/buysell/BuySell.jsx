@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './buysell.css'
 import Navbar from '../../components/navbar/Navbar'
-import Announcement from '../../components/announcement/Announcement'
 import { Link } from 'react-router-dom'
 
 const BuySell = () => {
@@ -9,7 +8,6 @@ const BuySell = () => {
 
   return (
     <div>
-        <Announcement />
         <Navbar />
         <div className="nmBuySell">
             <div className="nmBuySell_container">

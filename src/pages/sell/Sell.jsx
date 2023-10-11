@@ -1,13 +1,11 @@
 import React from 'react'
 import './sell.css'
-import Announcement from '../../components/announcement/Announcement'
 import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 const Sell = () => {
   return (
     <div>
-        <Announcement />
         <Navbar />
         <div className="nmSell">
             <div className="nmSell_container">
