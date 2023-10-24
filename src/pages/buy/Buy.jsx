@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './buy.css'
 import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 const Buy = () => {
+    const [chekedValue, setValue] = useState([]);
+
+    const handleChange = (e) => {
+        const {value, checked} = e.target
+
+        if(checked) {
+            setValue(pre => [...pre, value])
+        }else(
+            setValue(pre => {
+                return [...pre.filter(cat => cat!==value)]
+            })
+        )
+    }
+    console.log(chekedValue);
+
   return (
     <div>
         <Navbar />
@@ -25,7 +40,7 @@ const Buy = () => {
                     {data.map ((item, i) => (
                         <div className='nmBuy_wrapper'>
                             <label>
-                                <input type="checkbox" name="category" value={item.value} />
+                                <input type="checkbox" name="category" onChange={handleChange} value={item.value} />
                                 <span>{item.name}</span>
                             </label>
                         </div>
@@ -35,11 +50,11 @@ const Buy = () => {
                         <input type="text" placeholder='Enter Custom category'/>
                     </div>
                 </div>
-                <button>
-                    <Link to='/thanks' style={{textDecoration: 'none', color:'inherit'}}>
+                <Link to='/thanks' style={{textDecoration: 'none', color:'inherit'}}>
+                    <button>
                         Continue
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </div>
         </div>
     </div>

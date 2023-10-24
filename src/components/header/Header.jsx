@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './header.css'
 import People from '../../img/Frame 197.png'
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className='nmHeader'>
-        <div className="trailblazers">
+        <div className="trailblazers" data-aos="fade-left">
             <img src={People} alt="" />
             <p>Join Over 5,000 Trailblazers</p>
         </div>

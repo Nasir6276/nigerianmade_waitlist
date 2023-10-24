@@ -49,11 +49,11 @@ const BuySell = () => {
                         to a  dynamic and thriving network of customers. 
                     </p>
                 </div>
-                <button>
-                    <Link to={`/${transact}`} style={{textDecoration: 'none', color:'inherit'}}>
+                <Link to={`/${transact}`} style={{textDecoration: 'none', color:'inherit'}}>
+                    <button>
                         Continue
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </div>
         </div>
     </div>
