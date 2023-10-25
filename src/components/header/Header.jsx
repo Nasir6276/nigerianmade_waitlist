@@ -11,12 +11,31 @@ const Header = () => {
   }, [])
   return (
     <div className='nmHeader'>
-        <div className="trailblazers" data-aos="fade-left">
+        <div 
+          className="trailblazers" 
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
             <img src={People} alt="" />
             <p>Join Over 5,000 Trailblazers</p>
         </div>
-        <h2>Showcase, Discover, Buy & Sell Authentic Nigerian-made Products</h2>
-        <p className='desc'>Welcome to "Nigerian-made.com", the premier online location for  showcasing, discovering, buying, and selling authentic Nigerian-made products.</p>
+        <h2
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"
+        >Showcase, Discover, Buy & Sell Authentic Nigerian-made Products</h2>
+        <p className='desc'
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+        >Welcome to "Nigerian-made.com", the premier online location for  showcasing, discovering, buying, and selling authentic Nigerian-made products.</p>
         <Link to='/buysell' style={{textDecoration: 'none'}}>
             <button>
               Get early access

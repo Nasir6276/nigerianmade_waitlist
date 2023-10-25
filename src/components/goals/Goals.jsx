@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChartLine, faBrush, faGem, faStar, faShieldHalved, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import './goals.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Goals = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
     <div className='nmGoals'>
         <div className="nmGoals_container">
@@ -15,7 +20,13 @@ const Goals = () => {
                 </p>
             </div>
             <div className="nmGoals_items">
-                <div className="nmGoals_items-single">
+                <div className="nmGoals_items-single"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                >
                     <div className="nmGoals_items-header">
                         <FontAwesomeIcon className='nmGoals_icons' icon={faChartLine} />
                         <h2>Supporting Economic Growth</h2>
@@ -26,7 +37,13 @@ const Goals = () => {
                         and stimulate economic development in Nigeria.
                     </p>
                 </div>
-                <div className="nmGoals_items-single">
+                <div className="nmGoals_items-single"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                >
                     <div className="nmGoals_items-header">
                         <FontAwesomeIcon className='nmGoals_icons' icon={faBrush} />
                         <h2>Celebrating Nigerian Craftsmanship</h2>
@@ -37,7 +54,13 @@ const Goals = () => {
                         telling a story of resilience, creativity, and unparalleled craftsmanship.
                     </p>
                 </div>
-                <div className="nmGoals_items-single">
+                <div className="nmGoals_items-single"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                >
                     <div className="nmGoals_items-header">
                         <FontAwesomeIcon className='nmGoals_icons' icon={faGem} />
                         <h2>Unleashing Hidden Treasures</h2>
@@ -48,7 +71,13 @@ const Goals = () => {
                         our marketplace is a treasure trove of exclusive finds waiting to be explored.
                     </p>
                 </div>
-                <div className="nmGoals_items-single">
+                <div className="nmGoals_items-single"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                >
                     <div className="nmGoals_items-header">
                         <FontAwesomeIcon className='nmGoals_icons' icon={faStar} />
                         <h2>Building Trust and Credibility</h2>
@@ -59,7 +88,13 @@ const Goals = () => {
                         associated with Nigerian products and services.
                     </p>
                 </div>
-                <div className="nmGoals_items-single">
+                <div className="nmGoals_items-single"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                >
                     <div className="nmGoals_items-header">
                         <FontAwesomeIcon className='nmGoals_icons' icon={faShieldHalved} />
                         <h2>Increased Visibility</h2>
@@ -70,7 +105,13 @@ const Goals = () => {
                         marketing efficiency, and expanded customer reach.
                     </p>
                 </div>
-                <div className="nmGoals_items-single">
+                <div className="nmGoals_items-single"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                >
                     <div className="nmGoals_items-header">
                         <FontAwesomeIcon className='nmGoals_icons' icon={faUserPlus} />
                         <h2>Promoting Local Innovation</h2>
